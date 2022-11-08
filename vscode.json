@@ -1,0 +1,73 @@
+// Coloque sus enlaces de teclado en este archivo para sobrescribir los valores predeterminados.
+[
+	{
+			"key": "shift+cmd+d",
+			"command": "editor.action.copyLinesDownAction",
+			"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+			"key": "shift+alt+down",
+			"command": "-editor.action.copyLinesDownAction",
+			"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+			"key": "cmd+backspace",
+			"command": "editor.action.deleteLines",
+			"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+			"key": "shift+cmd+k",
+			"command": "-editor.action.deleteLines",
+			"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+			"key": "cmd+k cmd+k",
+			"command": "editor.foldAll",
+			"when": "editorTextFocus"
+	},
+	{
+			"key": "cmd+k cmd+0",
+			"command": "-editor.foldAll",
+			"when": "editorTextFocus"
+	},
+	{
+			"key": "cmd+k cmd+l",
+			"command": "editor.unfoldAll",
+			"when": "editorTextFocus"
+	},
+	{
+			"key": "cmd+k cmd+j",
+			"command": "-editor.unfoldAll",
+			"when": "editorTextFocus"
+	},
+	{
+			"key": "cmd+;",
+			"command": "editor.fold",
+			"when": "editorTextFocus"
+	},
+	{
+			"key": "alt+cmd+[",
+			"command": "-editor.fold",
+			"when": "editorTextFocus"
+	},
+	{
+			"key": "cmd+'",
+			"command": "editor.unfold",
+			"when": "editorTextFocus"
+	},
+	{
+			"key": "alt+cmd+]",
+			"command": "-editor.unfold",
+			"when": "editorTextFocus"
+	},
+	{
+			"key": "ctrl+shift+a",
+			"command": "editor.action.formatDocument",
+			"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+			"key": "shift+alt+f",
+			"command": "-editor.action.formatDocument",
+			"when": "editorTextFocus && !editorReadonly"
+	}
+]
